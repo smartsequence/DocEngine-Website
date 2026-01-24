@@ -94,26 +94,40 @@ const { title, description } = Astro.props;
 		--glass-border: rgba(148, 163, 184, 0.2);
 	}
 
-	/* Light Mode Override (Optional) */
-	@media (prefers-color-scheme: light) {
-		:root[data-theme="auto"] {
-			--bg-main: #F8FAFC;
-			--bg-section: #FFFFFF;
-			--bg-card: #FFFFFF;
-			--bg-footer: #1E293B;
-			
-			--text-primary: #0F172A;
-			--text-secondary: #475569;
-			--text-muted: #64748B;
-			
-			--link-color: #3B82F6;
-			--link-hover: #2563EB;
-			
-			--border-color: rgba(148, 163, 184, 0.2);
-			--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-			--shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
-			--shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
-		}
+	/* Light Theme */
+	html[data-theme='light'] {
+		--bg-main: #F8FAFC;        /* 淺灰白背景 */
+		--bg-section: #FFFFFF;     /* 白色區塊 */
+		--bg-card: #FFFFFF;        /* 白色卡片 */
+		--bg-footer: #1E293B;      /* Footer 保持深色 */
+		
+		/* Text Colors */
+		--text-primary: #0F172A;   /* 深藍黑標題 */
+		--text-secondary: #475569; /* 深灰文字 */
+		--text-muted: #64748B;     /* 次要文字 */
+		
+		/* Interactive Colors */
+		--link-color: #3B82F6;     /* 藍色連結 */
+		--link-hover: #2563EB;     /* 深藍 hover */
+		
+		/* CTA Colors - 保持一致 */
+		--cta-primary: #3B82F6;
+		--cta-hover: #2563EB;
+		--cta-success: #10B981;
+		--cta-gold: #F59E0B;
+		
+		/* Border & Divider */
+		--border-color: rgba(148, 163, 184, 0.25);
+		--border-light: rgba(148, 163, 184, 0.15);
+		
+		/* Shadows - Light Mode */
+		--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+		--shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+		--shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+		
+		/* Glassmorphism */
+		--glass-bg: rgba(255, 255, 255, 0.8);
+		--glass-border: rgba(148, 163, 184, 0.2);
 	}
 
 	* {
