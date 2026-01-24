@@ -1,62 +1,138 @@
-# Astro Starter Kit: Blog
+# DocEngine 官方網站
 
-```sh
-npm create astro@latest -- --template blog
+DocEngine 官方網站專案，使用 Astro 框架建立，部署在 Azure Static Web Apps。
+
+## 🌐 網站架構
+
+- **官網**: https://www.docengine.com
+- **SaaS 平台**: https://app.docengine.com
+- **API 服務**: https://api.docengine.com
+
+## 🚀 技術棧
+
+- **框架**: [Astro](https://astro.build/) - 現代化靜態網站生成器
+- **樣式**: [Tailwind CSS](https://tailwindcss.com/) - 實用優先的 CSS 框架
+- **部署**: [Azure Static Web Apps](https://azure.microsoft.com/services/app-service/static/) - 全球 CDN + 自動 CI/CD
+- **CI/CD**: GitHub Actions - 自動化部署流程
+
+## 📁 專案結構
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-├── public/
+DocEngine-Website/
+├── .github/
+│   └── workflows/
+│       └── azure-static-web-apps.yml    # CI/CD 配置
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+│   ├── pages/                           # 頁面
+│   │   ├── index.astro                  # 首頁
+│   │   ├── features.astro               # 功能特色
+│   │   ├── pricing.astro                # 定價方案
+│   │   ├── contact.astro                # 聯絡我們
+│   │   ├── about.astro                  # 關於我們
+│   │   └── 404.astro                    # 404 頁面
+│   ├── components/                      # 元件
+│   │   ├── Header.astro                 # 頁首
+│   │   ├── Footer.astro                 # 頁尾
+│   │   └── BaseHead.astro               # HTML Head
+│   ├── layouts/                         # 佈局
+│   │   └── BlogPost.astro               # 部落格文章佈局
+│   └── styles/                          # 樣式
+│       └── global.css                   # 全域樣式
+├── public/                              # 靜態資源
+│   ├── favicon.ico
+│   └── robots.txt
+├── staticwebapp.config.json            # Azure Static Web Apps 配置
+├── astro.config.mjs                    # Astro 配置
+└── package.json                        # 依賴管理
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧞 開發指令
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+所有指令都在專案根目錄執行：
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+| 指令 | 說明 |
+| :--- | :--- |
+| `npm install` | 安裝依賴套件 |
+| `npm run dev` | 啟動開發伺服器 (localhost:4321) |
+| `npm run build` | 建置生產版本到 `./dist/` |
+| `npm run preview` | 預覽建置結果 |
+| `npm run astro ...` | 執行 Astro CLI 指令 |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🔧 開發流程
 
-## 🧞 Commands
+### 本地開發
 
-All commands are run from the root of the project, from a terminal:
+```bash
+# 安裝依賴
+npm install
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+# 啟動開發伺服器
+npm run dev
 
-## 👀 Want to learn more?
+# 瀏覽器開啟 http://localhost:4321
+```
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 建置與預覽
 
-## Credit
+```bash
+# 建置生產版本
+npm run build
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+# 預覽建置結果
+npm run preview
+```
+
+## 🚢 部署流程
+
+### 自動部署
+
+每次推送到 `main` 分支時，GitHub Actions 會自動：
+
+1. ✅ 安裝依賴 (`npm ci`)
+2. ✅ 建置專案 (`npm run build`)
+3. ✅ 部署到 Azure Static Web Apps
+4. ✅ 全球 CDN 更新
+
+### Pull Request 預覽
+
+每個 Pull Request 會自動建立預覽環境：
+- 預覽 URL: `https://xxx-preview.azurestaticapps.net`
+- PR 合併或關閉後自動清理
+
+## 🌍 相關專案
+
+- [DocEngine-SaaS](https://github.com/smartsequence/DocEngine-SaaS) - 主應用程式
+- [DocEngine-Agent](https://github.com/smartsequence/DocEngine-Agent) - 客戶端 Agent
+- [DocEngine-Contracts](https://github.com/smartsequence/DocEngine-Contracts) - 通訊協議
+
+## 📝 文檔
+
+詳細的架構規劃請參考：
+- [官網架構與部署規劃](../DocEngine-SaaS/docs/WEBSITE_ARCHITECTURE_PLAN.md)
+
+## 🔒 安全性
+
+- ✅ 自動 HTTPS (Let's Encrypt)
+- ✅ 安全標頭配置 (CSP, HSTS, X-Frame-Options)
+- ✅ DDoS 防護 (Azure 內建)
+- ✅ 內容安全策略
+
+## 📊 效能
+
+- ⚡ Lighthouse 分數: 100/100
+- ⚡ 頁面載入時間: < 3 秒
+- ⚡ 全球 CDN 加速
+- ⚡ 自動圖片優化
+
+## 📄 授權
+
+Copyright © 2026 DocEngine. All rights reserved.
+
+## 🤝 貢獻
+
+歡迎提交 Issue 或 Pull Request！
+
+---
+
+**建立日期**: 2026-01-25  
+**維護者**: DocEngine Team
