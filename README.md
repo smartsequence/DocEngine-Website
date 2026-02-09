@@ -18,7 +18,7 @@
 ## 📁 專案結構
 
 ```
-ForgeHelm-Website/
+SmartSequence-Website/
 ├── .github/
 │   └── workflows/
 │       └── azure-static-web-apps.yml    # CI/CD 配置
@@ -101,9 +101,9 @@ npm run preview
 
 ## 🌍 相關專案
 
-- [DocEngine-SaaS](https://github.com/smartsequence/DocEngine-SaaS) - 主應用程式
-- [DocEngine-Agent](https://github.com/smartsequence/DocEngine-Agent) - 客戶端 Agent
-- [DocEngine-Contracts](https://github.com/smartsequence/DocEngine-Contracts) - 通訊協議
+- [ForgeHelm-SaaS](https://github.com/smartsequence/ForgeHelm-SaaS) - 主應用程式
+- [ForgeHelm-Agent](https://github.com/smartsequence/ForgeHelm-Agent) - 客戶端 Agent
+- [ForgeHelm-Contracts](https://github.com/smartsequence/ForgeHelm-Contracts) - 通訊協議
 
 ## 📝 文件
 
@@ -128,7 +128,7 @@ npm run preview
 
 ## 📄 授權
 
-Copyright © 2026 DocEngine. All rights reserved.
+Copyright © 2026 SmartSequence Tech. All rights reserved.
 
 ## 🤝 貢獻
 
@@ -137,4 +137,4 @@ Copyright © 2026 DocEngine. All rights reserved.
 ---
 
 **建立日期**: 2026-01-25  
-**維護者**: DocEngine Team
+**維護者**: SmartSequence Tech Team
