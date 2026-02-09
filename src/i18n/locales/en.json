@@ -11,7 +11,7 @@
     "badge": "Enterprise Risk Assessment Service",
     "title": "System Delivery Risk Analysis & Assessment Expert",
     "tagline": "The only risk health check tool designed for system teams, helping you deliver with confidence",
-    "subtitle": "Doc Engine is a risk assessment report service designed for system teams, helping you diagnose delivery risks, facilitate system handover, and evaluate the feasibility of modernization rewrites.",
+    "subtitle": "ForgeHelm is a risk assessment report service designed for system teams, helping you diagnose delivery risks, facilitate system handover, and evaluate the feasibility of modernization rewrites.",
     "ctaPrimary": "Try Now",
     "ctaSecondary": "Learn More"
   },
@@ -74,7 +74,7 @@
       }
     },
     "explore": {
-      "title": "Further Explore the Value of Doc Engine",
+      "title": "Further Explore the Value of ForgeHelm",
       "subtitle": "Learn more about how we help you deliver with confidence",
       "card1": {
         "title": "Learn More About Features",
@@ -105,7 +105,7 @@
     "about": "About",
     "followUs": "Follow Us",
     "copyright": "© 2026 Smart Sequence Tech. All rights reserved.",
-    "poweredBy": "Powered by Doc Engine"
+    "poweredBy": "Powered by ForgeHelm"
   },
   "common": {
     "learnMore": "Learn More",
@@ -122,7 +122,7 @@
       "heroTagline": "Making complexity clear, making systems more transferable",
       "introTitle": "About Us",
       "introText1": "We are a technology service team focused on system analysis, document governance, and AI applications. We believe that complex systems should be clearly explained, risks should be quantified and visualized, and handovers should proceed more smoothly.",
-      "introText2": "Doc Engine is our first product, born from years of practical experience in system maintenance and handover. We are committed to developing practical, honest tools that truly help teams reduce risks.",
+      "introText2": "ForgeHelm is our first product, born from years of practical experience in system maintenance and handover. We are committed to developing practical, honest tools that truly help teams reduce risks.",
       "registrationTitle": "Business Registration Information",
       "studioName": "Studio Name",
       "englishName": "English Name",
@@ -148,15 +148,15 @@
       "socialLinkedIn": "Professional technology sharing and exchange",
       "socialYouTube": "Technology tutorial video channel",
       "socialGitHub": "Open source projects and code",
-      "ctaTitle": "Ready to Get Started with Doc Engine?",
+      "ctaTitle": "Ready to Get Started with ForgeHelm?",
       "ctaButton": "Get Started Now"
     },
     "features": {
-      "title": "Features | Doc Engine - Smart Sequence Tech",
-      "description": "Doc Engine six core features: questionnaire quantitative assessment, AI intelligent analysis, visualization reports, multi-language support, database integration, real-time collaboration.",
-      "heroTitle": "Doc Engine Service Overview",
-      "heroSubtitle": "Doc Engine is a system risk assessment and report generation service that combines questionnaire quantification, AI analysis, and visualization reports to help teams effectively identify potential risks and evaluate rewrite costs.",
-      "audienceTitle": "Who Needs Doc Engine?",
+      "title": "Features | ForgeHelm - Smart Sequence Tech",
+      "description": "ForgeHelm six core features: questionnaire quantitative assessment, AI intelligent analysis, visualization reports, multi-language support, database integration, real-time collaboration.",
+      "heroTitle": "ForgeHelm Service Overview",
+      "heroSubtitle": "ForgeHelm is a system risk assessment and report generation service that combines questionnaire quantification, AI analysis, and visualization reports to help teams effectively identify potential risks and evaluate rewrite costs.",
+      "audienceTitle": "Who Needs ForgeHelm?",
       "pmTitle": "System Project Manager (PM)",
       "pmItem1": "Need a complete risk overview before system handover",
       "pmItem2": "Need data support for external presentations or reports to supervisors",
@@ -182,7 +182,7 @@
       "feature5Desc": "Seamless integration with existing databases and systems",
       "feature6Title": "Real-time Collaboration",
       "feature6Desc": "Team members can collaborate in real-time on assessments",
-      "ctaTitle": "Ready to Get Started with Doc Engine?",
+      "ctaTitle": "Ready to Get Started with ForgeHelm?",
       "ctaButton": "Get Started Now"
     },
     "pricing": {
@@ -293,7 +293,7 @@
       "faqA7": "Unused report quantities for the current month will not carry over to the next month. If you expect to generate more reports in a certain month, we recommend choosing the annual plan or contacting us to discuss flexible options.",
       "faqQ8": "Q8: Can I upgrade or downgrade my plan?",
       "faqA8": "Yes. You can upgrade to a higher-tier plan at any time. For downgrades, please notify us 7 days before the current period ends, and it will take effect in the next period.",
-      "ctaTitle": "Ready to Get Started with Doc Engine?",
+      "ctaTitle": "Ready to Get Started with ForgeHelm?",
       "ctaSubtitle": "Choose the plan that suits you and start system risk assessment immediately",
       "ctaButton1": "Buy Plan Now",
       "ctaButton2": "Preview Sample Report",
@@ -326,9 +326,9 @@
       "responseTime": "Response time: 1-2 business days"
     },
     "getStarted": {
-      "title": "Get Started with Doc Engine | Smart Sequence Tech",
+      "title": "Get Started with ForgeHelm | Smart Sequence Tech",
       "description": "Choose the plan that suits you and start the system risk assessment service immediately.",
-      "heroTitle": "Get Started with Doc Engine",
+      "heroTitle": "Get Started with ForgeHelm",
       "heroSubtitle": "Choose the plan that suits you and experience the system risk assessment service immediately",
       "optionTrialTitle": "Free Trial",
       "optionTrialDesc": "Fill out assessment questionnaire, preview report content, experience complete process (PDF download not included)",

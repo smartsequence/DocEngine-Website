@@ -11,7 +11,7 @@
     "badge": "企業級風險評估服務",
     "title": "系統交付風險分析與評估專家",
     "tagline": "唯一專為系統團隊設計的風險健檢工具，協助您交付安心",
-    "subtitle": "Doc Engine 是專為系統團隊設計的風險評估報告服務，協助您診斷交付風險、促進系統交接與評估現代化改寫的可行性。",
+    "subtitle": "ForgeHelm 是專為系統團隊設計的風險評估報告服務，協助您診斷交付風險、促進系統交接與評估現代化改寫的可行性。",
     "ctaPrimary": "立即試用",
     "ctaSecondary": "瞭解詳情"
   },
@@ -74,7 +74,7 @@
       }
     },
     "explore": {
-      "title": "進一步探索 Doc Engine 的價值",
+      "title": "進一步探索 ForgeHelm 的價值",
       "subtitle": "深入認識我們如何幫助您交付更安心",
       "card1": {
         "title": "深入瞭解功能",
@@ -105,7 +105,7 @@
     "about": "關於",
     "followUs": "追蹤我們",
     "copyright": "© 2026 智序資訊工作室. 版權所有.",
-    "poweredBy": "Powered by Doc Engine"
+    "poweredBy": "Powered by ForgeHelm"
   },
   "common": {
     "learnMore": "了解更多",
@@ -122,7 +122,7 @@
       "heroTagline": "讓複雜說得清楚，讓系統更能被交接",
       "introTitle": "關於我們",
       "introText1": "我們是一個專注於系統分析、文件治理與 AI 應用的技術服務團隊。我們相信，複雜的系統應該能被清楚說明，風險應該能被量化呈現，交接應該能更順利進行。",
-      "introText2": "Doc Engine 是我們的第一個產品，源自於多年系統維護與交接的實戰經驗。我們致力於開發實用、誠實、真正幫助團隊降低風險的工具。",
+      "introText2": "ForgeHelm 是我們的第一個產品，源自於多年系統維護與交接的實戰經驗。我們致力於開發實用、誠實、真正幫助團隊降低風險的工具。",
       "registrationTitle": "商業登記資訊",
       "studioName": "工作室名稱",
       "englishName": "英文名稱",
@@ -148,15 +148,15 @@
       "socialLinkedIn": "專業技術分享與交流",
       "socialYouTube": "技術教學影片頻道",
       "socialGitHub": "開源專案與程式碼",
-      "ctaTitle": "準備開始使用 Doc Engine？",
+      "ctaTitle": "準備開始使用 ForgeHelm？",
       "ctaButton": "立即開始"
     },
     "features": {
-      "title": "功能介紹 | Doc Engine - 智序資訊工作室",
-      "description": "Doc Engine 六大核心功能：問卷量化評估、AI 智慧分析、視覺化報告、多語言支援、資料庫整合、即時協作。",
-      "heroTitle": "Doc Engine 服務說明",
-      "heroSubtitle": "Doc Engine 是一套系統風險評估與報告產出服務，結合問卷量化、AI 分析與視覺化報告，協助團隊有效識別潛在風險與評估改寫成本。",
-      "audienceTitle": "誰需要 Doc Engine？",
+      "title": "功能介紹 | ForgeHelm - 智序資訊工作室",
+      "description": "ForgeHelm 六大核心功能：問卷量化評估、AI 智慧分析、視覺化報告、多語言支援、資料庫整合、即時協作。",
+      "heroTitle": "ForgeHelm 服務說明",
+      "heroSubtitle": "ForgeHelm 是一套系統風險評估與報告產出服務，結合問卷量化、AI 分析與視覺化報告，協助團隊有效識別潛在風險與評估改寫成本。",
+      "audienceTitle": "誰需要 ForgeHelm？",
       "pmTitle": "系統專案經理（PM）",
       "pmItem1": "系統交接前需要完整的風險總覽",
       "pmItem2": "對外簡報或向主管報告時需要數據支撐",
@@ -182,7 +182,7 @@
       "feature5Desc": "與現有資料庫與系統無縫整合",
       "feature6Title": "即時協作",
       "feature6Desc": "團隊成員可即時協作進行評估",
-      "ctaTitle": "準備開始使用 Doc Engine？",
+      "ctaTitle": "準備開始使用 ForgeHelm？",
       "ctaButton": "立即開始"
     },
     "pricing": {
@@ -293,7 +293,7 @@
       "faqA7": "當月未使用完的報告數量不會累積至下個月。如果您預期某月會產生較多報告，建議選擇年度方案或聯絡我們討論彈性方案。",
       "faqQ8": "Q8：可以升級或降級方案嗎？",
       "faqA8": "可以。您隨時可以升級至更高階方案。如需降級，請在當期結束前 7 天告知，將於下期生效。",
-      "ctaTitle": "準備開始使用 Doc Engine？",
+      "ctaTitle": "準備開始使用 ForgeHelm？",
       "ctaSubtitle": "選擇適合您的方案，立即開始系統風險評估",
       "ctaButton1": "立即購買方案",
       "ctaButton2": "預覽範例報告",
@@ -326,9 +326,9 @@
       "responseTime": "回覆時間：1-2 個工作天"
     },
     "getStarted": {
-      "title": "開始使用 Doc Engine | 智序資訊工作室",
+      "title": "開始使用 ForgeHelm | 智序資訊工作室",
       "description": "選擇適合您的方案，立即開始系統風險評估服務。",
-      "heroTitle": "開始使用 Doc Engine",
+      "heroTitle": "開始使用 ForgeHelm",
       "heroSubtitle": "選擇適合您的方案，立即體驗系統風險評估服務",
       "optionTrialTitle": "免費試用",
       "optionTrialDesc": "填寫評估問卷，預覽報告內容，體驗完整流程（不包含 PDF 下載）",

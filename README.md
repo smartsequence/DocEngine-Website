@@ -5,8 +5,8 @@
 ## 🌐 網站架構
 
 - **官網**: https://smartsequence.tech
-- **DocEngine SaaS**: https://app.docengine.com
-- **DocEngine API**: https://api.docengine.com
+- **ForgeHelm SaaS**: https://app.forgehelm.com
+- **ForgeHelm API**: https://api.forgehelm.com
 
 ## 🚀 技術棧
 
@@ -18,7 +18,7 @@
 ## 📁 專案結構
 
 ```
-DocEngine-Website/
+ForgeHelm-Website/
 ├── .github/
 │   └── workflows/
 │       └── azure-static-web-apps.yml    # CI/CD 配置
